@@ -305,15 +305,16 @@
                     <h3>get in touch</h3>
                     <div class="inputBox">
                         <span class="fas fa-user"></span>
-                        <input type="text" placeholder="name">
+                        <input type="text" placeholder="name" required>
                     </div>
                     <div class="inputBox">
                         <span class="fas fa-envelope"></span>
-                        <input type="email" placeholder="email">
+                        <input type="email" placeholder="email" required>
                     </div>
                     <div class="inputBox">
                         <span class="fas fa-phone"></span>
-                        <input type="text" placeholder="number">
+                        <input type="tel"
+                        placeholder="phone"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
                     </div>
                     <input type="submit" value="contact now" class="btn">
                 </form>
